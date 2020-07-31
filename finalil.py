@@ -15,7 +15,7 @@ import streamlit as sl
 from joblib import dump, load
 
 
-rr = load('filename.joblib')
+rr = load('filename1.joblib')
 
 sl.write("""
 # IPL SCORE PREDICTION APP
