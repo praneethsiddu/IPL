@@ -62,7 +62,6 @@ batting_team,bowling_team,overs,runs,wickets=user_input_features();
 
 
 sl.title("Lets Start Our Score Prediction")
-sl.warning("The Predictions are based on Statistisc Of First 5 overs")
 wickets_in_prev_5 = sl.slider('Number Of Wickets Down In Previous 5 Overs', 0,10, 1)
 runs_in_prev_5 =sl.number_input('Enter Number Of Runs Scored In Previous 5 Overs',min_value=-1,max_value=720,value=0)
 
